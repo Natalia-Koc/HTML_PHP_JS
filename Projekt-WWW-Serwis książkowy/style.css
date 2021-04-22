@@ -1,0 +1,174 @@
+body {
+	background-color: lightgray;
+	margin:9%;
+	text-align: center;
+}
+.komentarze {
+	text-align: left;
+	position: left;
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	padding-right: 5%;
+}
+
+.ulubione {
+	text-align: left;
+	position: left;
+	grid-column: 3;
+	grid-row: 1;
+}
+.centrum {
+	grid-column: 1 / span 3;
+	grid-row: 1;
+}
+#pasekMenu {
+	border-style: solid;
+	border-top-style: none;
+	border-radius-bottom: 6px;
+	border-color: gray;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+#obrazNaglowkowy {
+	background-color: gray;
+	text-align: center;
+	height: 50%;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+ #wyszukajKsiazke {
+ 	text-transform: uppercase;
+	width: 100%;
+}
+
+#footer {
+	background-color: gray;
+	text-align: center;
+	height: auto;
+	border-radius: 7px;
+}
+#footer {
+	height: auto;
+}
+
+#stronaCentrum {
+	padding: 4%;
+	border-right-style: ridge;
+  	border-left-style: ridge;
+}
+
+#footer1 {
+	width: 12%;
+}
+#footer2 {
+	width: 10%;
+}
+#footer3 {
+	width: 33%;
+}
+#footer4 {
+	width: 18%;
+}
+
+#addBook {
+	border-radius: 7px;
+	border: 2px solid gray;
+	background-color: AntiqueWhite;
+	padding: 1%;
+	display: grid;	
+}
+.text0 {
+	grid-column: 1 / span 4;
+	grid-row: 0;
+}
+.text1 {
+	grid-column: 1;
+	grid-row: 2;
+}
+.text2 {
+	grid-column: 2;
+	grid-row: 2;
+}
+.text3 {
+	grid-column: 3;
+	grid-row: 2;
+}
+.text4 {
+	grid-column: 4;
+	grid-row: 2;
+}
+#okladka {
+	grid-column: 1;
+	grid-row: 3;
+	background-color: lightgray;
+}
+#tytul1 {
+	grid-column: 2;
+	grid-row: 3;
+	background-color: lightgray;
+}
+#autor{
+	grid-column: 3;
+	grid-row: 3;
+	background-color: lightgray;
+}
+#gatunek {
+	grid-column: 4;
+	grid-row: 3;
+	background-color: lightgray;
+}
+.text5 {
+	grid-column: 1 / span 4;
+	grid-row: 4;
+}
+#opis {
+	grid-column: 1 / span 4;
+	grid-row: 5;
+	background-color: lightgray;
+}
+#przycisk {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	grid-column: 2 / span 2;
+	grid-row: 6;
+}
+
+.menu {
+	height: 55px; 
+	background-color: AntiqueWhite;
+	border-radius: 3px;
+}
+
+.okladkaKsiazki {
+	border-radius: 4px;
+	height: 200px;
+}
+
+.okladkaKsiazki:hover {
+  box-shadow: 0 0 4px 3px black;
+}
+
+.linkGatunek {
+	display: block;
+	padding: 10px 16px;
+  	text-decoration: none;
+  	font-variant: small-caps;
+  	font-style: oblique;
+  	color: black;
+  	position: top;
+}
+
+#like, #unLike, #love, #unlove {
+	cursor: -webkit-grab; cursor: grab;
+}
+#przycisk {
+	padding: 2px 3px;
+}
+.wybranyGatunek {
+	display: block;
+	padding: 10px 16px;
+  	text-decoration: none;
+  	font-variant: small-caps;
+  	font-style: oblique;
+  	color: red;
+}
